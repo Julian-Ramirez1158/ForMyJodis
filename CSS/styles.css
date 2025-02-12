@@ -88,10 +88,6 @@ body {
     object-fit: cover;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: #f03e5f;  /* Red control arrows */
-}
-
 
 @media (max-width: 576px) {
     .carousel-inner img {
