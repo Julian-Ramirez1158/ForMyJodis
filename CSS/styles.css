@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #5d3f3a;  /* Darker text for good readability */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navbar {
+    background-color: #f03e5f;  /* Valentine Red */
+    padding: 1rem 0;  /* Make navbar a bit taller */
+}
+
+.navbar-brand svg {
+    height: 30px;  /* Slightly bigger icon */
+}
+
+.nav-link {
+    padding: 10px 20px;
+    font-size: 1.1rem;  /* Slightly larger font for readability */
+}
+
+.nav-link:hover {
+    color: #f8e5e0 !important;  /* Light pink on hover */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-text {
+    line-height: 1.8;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #5d3f3a;
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 250px;
+}
+
+.vdayCard {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    max-width: 100%;
+    width: 23rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contentElement {
+    margin-top: 30px;  /* Adds spacing between content */
+    margin-bottom: 30px;  /* Adds space below the text */
+    padding: 0 15px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.carousel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    border-radius: 15px;  /* Rounded corners for carousel images */
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #f03e5f;  /* Red control arrows */
+}
+
+
+@media (max-width: 576px) {
+    .carousel-inner img {
+        object-fit: cover;
+    }
+
+    .tile {
+        width: 90%;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .navbar-brand svg {
+        height: 25px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+}
